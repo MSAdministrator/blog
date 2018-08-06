@@ -1,0 +1,93 @@
+title = "MSAdministrator"
+baseURL = "https://msadministrator.com"
+languageCode = "en-us"
+theme = "bilberry-hugo-theme"
+
+enableRobotsTXT = true
+
+# Change to one of your content languages definded at the end.
+DefaultContentLanguage = "en"
+
+# Enable / Disable Google Analytics statistics for your site
+googleAnalytics = ""
+
+# Enable / Disable comments on the articles via Disqus.
+disqusShortname = "bilberry-hugo-theme"
+
+[params]
+  # Favicon for the browser's favorites and tabs
+  favicon = "" # set a favicon icon
+
+  # Custom CSS / JS modules that will be imported by the template.
+  # Files are relative to the static/ directory or a URL.
+  # Files are imported in the order they appear here, after
+  # theme.css and theme.js, respectively.
+  css_modules = []
+  js_modules = []
+
+  # Description and meta data for the search engines
+  author = "Josh Rickard"
+  description = "All about Microsoft Automation"
+  keywords = "blog,powershell,security,pwsh,python,active,directory,grouppolicy,windows,microsoft"
+
+  # How many articles should be displayed at once?
+  paginate = 7
+
+  # Enable / Disable MathJax
+  enable_mathjax    = false
+
+  # Enable / Disable algolia search
+  algolia_search    = true
+  algolia_appId     = "Y2C4RWMPXW"
+  algolia_apiKey    = "50ea7f8c41c0ad233926e0be2b769ed1"
+  algolia_indexName = "default-content"
+    # Set this option to false if you want to search within all articles in all languages at once
+    algolia_currentLanguageOnly = true
+
+  # Header configuration
+    # your subtitle if you want to use any
+    subtitle = "All about Windows Automation"
+
+    # if you want to use gravatar for the header image
+    gravatarEMail = ""
+
+    # set an path to the image file you want to use | overwrites gravatar
+    customImage = "images/default.jpg"
+
+    # always display the top navigation (with pages and search) on non-mobile screens
+    permanentTopNav = false
+
+    # show a language chooser in the header
+    showHeaderLanguageChooser = false
+
+    # credits line configuration
+    #copyrightBy = "by Lednerb"
+    #copyrightUseCurrentYear = true  # set to true to always display the current year in the copyright
+    #copyrightUrl = "https://github.com/Lednerb"
+    #creditsText = "Bilberry Hugo Theme"
+    #creditsUrl = "https://github.com/Lednerb/bilberry-hugo-theme"
+
+  # social media profile urls for the footer links
+  showSocialMedia = true
+  facebook   = ""
+  twitter    = "https://twitter.com/MS_dministrator"
+  googleplus = ""
+  pinterest  = ""
+  instagram  = ""
+  tumblr     = ""
+  youtube    = ""
+  vimeo      = ""
+  github     = "https://github.com/MSAdministrator"
+  xing       = ""
+  linkedin   = "https://www.linkedin.com/in/josh-rickard/"
+
+# don't change anything below
+[taxonomies]
+  author   = "author"
+  tag      = "tags"
+  category = "categories"
+
+[outputs]
+  home = [ "HTML", "JSON", "RSS" ]
+  page = [ "HTML" ]
+
