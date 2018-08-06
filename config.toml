@@ -1,5 +1,5 @@
 title = "MSAdministrator"
-baseURL = ""
+baseURL = "/"
 languageCode = "en-us"
 theme = "bilberry-hugo-theme"
 
@@ -52,7 +52,7 @@ disqusShortname = "bilberry-hugo-theme"
     gravatarEMail = ""
 
     # set an path to the image file you want to use | overwrites gravatar
-    customImage = "images/default.jpg"
+    customImage = "/images/default.jpg"
 
     # always display the top navigation (with pages and search) on non-mobile screens
     permanentTopNav = false
