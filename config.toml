@@ -1,5 +1,5 @@
 title = "MSAdministrator"
-baseURL = "https://msadministrator.com"
+baseURL = "https://msadministrator.github.io"
 languageCode = "en-us"
 theme = "bilberry-hugo-theme"
 
