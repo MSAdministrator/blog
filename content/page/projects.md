@@ -1,7 +1,7 @@
 ---
 title: "Projects"
 date: 2018-08-05T21:49:16-04:00
-draft: true
+draft: false
 excludeFromTopNav: false
 
 # set the link if you want to redirect the user.
