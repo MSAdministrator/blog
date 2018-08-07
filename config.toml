@@ -24,6 +24,7 @@ disqusShortname = "bilberry-hugo-theme"
   # theme.css and theme.js, respectively.
   css_modules = []
   js_modules = []
+  addThis = "ra-5b69d44bc5862637"
 
   # Description and meta data for the search engines
   author = "Josh Rickard"
