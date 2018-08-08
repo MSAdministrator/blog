@@ -3,6 +3,9 @@ baseURL = "/"
 languageCode = "en-us"
 theme = "bilberry-hugo-theme"
 
+# should create a menu called archive
+sectionPagesMenu = "archive"
+
 enableRobotsTXT = true
 
 # Change to one of your content languages definded at the end.
