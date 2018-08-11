@@ -7,7 +7,7 @@ categories: []
 tags: [archive]
 author: "Josh Rickard"
 ---
-Hey Mike, sorry for the long delay; got really busy at work (like always :) ). So as far as the desk build, i'll try and list out how I approached it as best as possible:
+Recently I built a butcher block and iron pipe desk for my home office.  Within this post i'll try and list out how I approached it as best as possible:
 
 I purchased 2 8ft butcher block countertops from Lumber Liquidators while they were on sale. I [paid $150 for each](https://www.lumberliquidators.com/ll/c/%27-Builder-Oak-Countertop-Williamsburg-Butcher-Block-Co.-OAKBB8L-H/10037933). Next, I researched quite a bit about how to finish them. Here's what I did:
 

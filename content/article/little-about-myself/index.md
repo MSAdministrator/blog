@@ -1,7 +1,7 @@
 ---
 title: ""
 date: 2018-08-07T20:45:32-04:00
-draft: false
+draft: true
 
 categories: []
 tags: [archive]
