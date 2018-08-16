@@ -17,6 +17,12 @@ To create our chatbot we are going to use a few different services.  Please make
 * [Microsoft Bot Framework](https://slack.botframework.com)
 * [Slack](https://slack.com) (you will need your own Slack workspace)
 
+You can find three posts below that walk you through creating this ChatBot:
+
+* [Using QnAMaker to Create a ChatBot](../using-qnamaker-to-create-chatbot/)
+* [Create a Web App Bot using Azure Bot Services](../create-a-web-app-bot-using-azure-bot-services/)
+* [Connect Your Bot to Slack](../connect-your-bot-to-slack/)
+
 Below I will break down why for two of the services above.  Both the Azure Portal and Slack should be obvious.
 
 ## QnAMaker

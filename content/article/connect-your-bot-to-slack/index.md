@@ -32,7 +32,9 @@ Lastly, you will need to subscribe to (at minimum) the following bot events.
 
 Click Save.
 
-![Add a Request URL and subscribe to bot events]("Add a Request URL and subscribe to bot events.png" "Add a Request URL and subscribe to bot events")
+<img src="Add a Request URL and subscribe to bot events.png" style="max-width:100%;" alt="Add a Request URL and subscribe to bot events">
+
+<img src="Add a Request URL and subscribe to bot events.png" style="max-width:100%;" alt="Add a Request URL and subscribe to bot event">
 
 Select the Basic Information section scroll down until you see the App Credentials.  You will need to gather the following information to allow your Azure Web App Bot to be integrated into your Slack workspace.
 
@@ -40,13 +42,14 @@ Select the Basic Information section scroll down until you see the App Credentia
 * Client Secret
 * Verification Token
 
-![Save your Slack Credentials to integrate into your new Azure Web App Bot]("Save your Slack Credentials to integrate into your new Azure Web App Bot.png" "Save your Slack Credentials to integrate into your new Azure Web App Bot")
+<img src="Save your Slack Credentials to integrate into your new Azure Web App Bot.png" style="max-width:100%;" alt="Save your Slack Credentials to integrate into your new Azure Web App Bot">
 
 Now that you have this information, head back over to your Azure Portal and your Web App Bot.  Once you are back there, select the Channels setting. 
 
 I want to point out that you can integrate your bot with many other services besides Slack, and there are several built-in options for doing this with many popular services.  This article will only talk about integrating your bot with Slack.
 
-![Select Channels within your Web App Bot resource page and then select Slack to integrate your bot with Slack]("Select Channels within your Web App Bot resource page and then select Slack to integrate your bot with Slack.png" "Select Channels within your Web App Bot resource page and then select Slack to integrate your bot with Slack")
+<img src="Select Channels within your Web App Bot resource page and then select Slack to integrate your bot with Slack.png" style="max-width:100%;" alt="Select Channels within your Web App Bot resource page and then select Slack to integrate your bot with Slack">
+
 
 Enter Application Credentials information from our Slack workspace into the Slack channel integration page on your Web App Bot Resource in the Azure Portal.  You only need to fill out the Client ID, Client Secret, and Verification Token fields.  Click Save.
 
@@ -56,4 +59,4 @@ NOTE: If you run into an issue, you may need to ensure that you are still author
 
 All you have to do now is login to your Slack workspace and your new bot should be available and ready to answer any and all of your questions! 
 
-![Your very own QnA Bot is now integrated into your Slack workspace]("Your very own QnA Bot is now integrated into your Slack workspace.png" "Your very own QnA Bot is now integrated into your Slack workspace")
+<img src="Your very own QnA Bot is now integrated into your Slack workspace.png" style="max-width:100%;" alt="Your very own QnA Bot is now integrated into your Slack workspace">
