@@ -6,6 +6,7 @@ draft: false
 categories: [how-to]
 tags: [hugo,github,automation]
 author: "Josh Rickard"
+image: "Screenshot of my two GitHub repositories.png"
 ---
 I recently transitioned my blog over to [GitHub Pages](https://pages.github.com) from [WordPress](https://wordpress.org).  I was using the free version from WordPress.org and I wanted more granular control over the layout.  Additionally, I wanted to automate my blog publishing and social media notifications; the free version of WordPress didn't meet my needs.  So I looked around and eventually fell in love with [Hugo](https://gohugo.io)!  This post outlines how to go about setting up a GitHub Pages website/blog using Hugo.
 
