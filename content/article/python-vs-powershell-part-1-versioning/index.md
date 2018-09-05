@@ -1,7 +1,7 @@
 ---
 title: "Python vs Powershell Part 1: Versioning"
 date: 2018-09-04T21:20:15-04:00
-draft: true
+draft: false
 
 categories: [python,powershell]
 tags: [pip,install-module]
