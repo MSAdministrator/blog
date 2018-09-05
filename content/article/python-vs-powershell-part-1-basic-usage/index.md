@@ -1,6 +1,6 @@
 ---
 title: "Python vs Powershell Part 1: Versioning"
-date: 2018-08-26T00:20:15-04:00
+date: 2018-09-04T21:20:15-04:00
 draft: true
 
 categories: [python,powershell]
@@ -22,7 +22,7 @@ At the time of writing this post, there are two distinct release branches.  Thes
 
 The first step if you are on a Mac OS X system is to open up your Terminal app and run the following command.  
 
-Please note, that if you are on a Windows system then you will need to download Python 3.x from [here](https://www.python.org/downloads/windows/). [Here is a great article that walks through installing Python on Windows](https://www.howtogeek.com/197947/how-to-install-python-on-windows/).  Once you have installed Python then these commands should work the same whether on Mac OS X or Windows.
+Please note, that if you are on a Windows system then you will need to download Python 3.x from [here](https://www.python.org/downloads/windows/). Additionally, [here is a great article that walks through installing Python on Windows](https://www.howtogeek.com/197947/how-to-install-python-on-windows/).  Once you have installed Python then these commands should work the same whether on Mac OS X or Windows.
 
 ```python
 # Try both python and python3 if you have two seperate branches of Python installed
@@ -49,8 +49,6 @@ pip -V
 # or
 pip3 -V
 ```
-
-## PowerShell Core on macOS
 
 ## PowerShell on Windows
 
@@ -108,4 +106,66 @@ I have compiled a json file that has all the download links for all the versions
 
 Once you have installed or upgraded to atleast PowerShell 5.0, then you can again check to ensure that your `$PSVersionTable` environmental variable states 5 or higher.
 
-## PowerShell on macOS
+## PowerShell Core on macOS
+
+Since the release of PowerShell Core, you can have the power of PowerShell on your macOS (or linux) systems.  To install PowerShell Core on a macOS system, you can use `brew` to install PowerShell Core:
+
+```bash
+# first make sure that brew is updated
+brew tap
+brew update
+
+# next install PowerShell Core
+brew cask install powershell
+```
+
+Once PowerShell Core is installed, you would typically think that you would access it by running `powershell` in our terminal, but it is actually `pwsh` in PowerShell Core.
+
+Microsoft decided to change the name of the PowerShell CLI application to `pwsh` over the traditional `powershell.exe` for cross platform compatibility (among other reasons).  To see if PowerShell Core is working correctly, you should open your terminal application and launch powershell:
+
+```bash
+# run PowerShell Core as normal user
+pwsh
+
+# run PowerShell Core as a sudo user
+sudo pwsh
+```
+
+Once you are in a PowerShell session you can identify the version of your current PowerShell Core install by using the same environmental variable:
+
+```powershell
+$PSVersionTable
+```
+
+```output
+Name                       Value                                  
+----                       -----                               
+PSVersion                  6.0.2                              
+PSEdition                  Core                            
+GitCommitId                v6.0.2                         
+OS                         Darwin 17.7.0 Darwin Kernel Version
+Platform                   Unix                                       
+PSCompatibleVersions       {1.0, 2.0, 3.0, 4.0...}                    
+PSRemotingProtocolVersion  2.3                                        
+SerializationVersion       1.1.0.1                                    
+WSManStackVersion          3.0                                        
+```
+
+If a new version of PowerShell Core is released, you can use brew to upgrade your current version of PowerShell:
+
+```bash
+brew update
+brew cask upgrade powershell
+```
+
+If you do not have or use `brew` you can also install PowerShell Core directly from the PowerShell GitHub repository.  These are located on the [Releases](https://github.com/PowerShell/PowerShell/releases/latest) page.
+
+You download the version of PowerShell Core you want, but please make sure that you download the `pkg` of the selected version of PowerShell Core.
+
+You can double click the `pkg` and follow the on-screen instructions or you can run the following via terminal:
+
+```bash
+sudo installer -pkg powershell-6.0.2-osx.10.12-x64.pkg -target /
+```
+
+That's it!  I hope you enjoyed the first part of this series explaining the differences between `PowerShell` and `Python` for beginners.
