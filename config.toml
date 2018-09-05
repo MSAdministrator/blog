@@ -1,4 +1,4 @@
-title = "MSAdministrator"
+title = "Lets Automate It"
 baseURL = "https://letsautomate.it"
 languageCode = "en-us"
 theme = "bilberry-hugo-theme"
@@ -31,7 +31,7 @@ disqusShortname = ""
 
   # Description and meta data for the search engines
   author = "Josh Rickard"
-  description = "All about Microsoft Automation"
+  description = "Lets Automate It"
   keywords = "blog,powershell,security,pwsh,python,active,directory,grouppolicy,windows,microsoft"
 
   # How many articles should be displayed at once?
@@ -50,7 +50,7 @@ disqusShortname = ""
 
   # Header configuration
     # your subtitle if you want to use any
-    subtitle = "All about Windows Automation"
+    subtitle = "from Josh Rickard"
 
     # if you want to use gravatar for the header image
     #gravatarEMail = ""
