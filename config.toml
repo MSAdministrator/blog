@@ -85,6 +85,9 @@ disqusShortname = ""
   xing       = ""
   linkedin   = "https://www.linkedin.com/in/josh-rickard/"
 
+[params.adsense]
+    client = "ca-pub-1514695391372140"
+    inArticleSlot = "12345"
 
 enableRobotsTXT = true
 canonifyURLs = true

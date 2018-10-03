@@ -7,6 +7,14 @@ categories: [azure]
 tags: [bot,qnamaker,chatbot]
 author: "Josh Rickard"
 ---
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-1514695391372140",
+    enable_page_level_ads: true
+  });
+</script>
+
 The first thing we need to do is login to [QnAMaker](https://qnamaker.ai).  QnA Maker is a Microsoft service that allows you to easily generate a bot using either existing documentation for a product (or service) or you can create your own questions and answers – hence the name QnA Maker.  
 
 Login to QnAMaker and navigate to the Create a knowledge base tab.  You will need to walkthrough 5 steps to create your knowledge base.  Luckily, Microsoft has provided clear instructions to make this as simple as possible.

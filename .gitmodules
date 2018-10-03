@@ -2,3 +2,14 @@
 	path = public
 	url = git@github.com:msadministrator/msadministrator.github.io.git
 	branch = master
+
+[submodule "themes/bilberry-hugo-theme"]
+	path = themes/bilberry-hugo-theme
+	url = git@github.com:Lednerb/bilberry-hugo-theme.git
+	branch = master
+
+[submodule "themes/kube"]
+	path = themes/kube
+	url = git@github.com:jeblister/kube.git
+	branch = master
+	
