@@ -15,12 +15,14 @@ I have included a list below of my previous presentations and any relevant links
 ## Presentation Slides
 
 * [Hunting Phish Kits](http://msadministrator.github.io/presentations/hunting-for-phishkits.html)
+* [PowerShell vs Python: A side-by-side comparison](https://github.com/MSAdministrator/powershell-python-comparison-presentation)
 * [Basics of Incident Handling](http://msadministrator.github.io/presentations/basics-of-incident-handling.html)
 * [Securing Windows with Group Policy](http://msadministrator.github.io/presentations/securing-windows-with-group-policy.html)
 
 ## Past Presentations
 
 * [Hunting Phish Kits - 2019 DerbyCon](http://www.irongeek.com/i.php?page=videos/derbycon9/stable-23-hunting-phish-kits-josh-rickard)
+* PowerShell vs Python: A side-by-side comparison - 2019 BSides Springfield (Missouri) - No Video
 * [SECURING WINDOWS WITH (SOME) GROUP POLICY – 2018 SHOWMECON](https://www.irongeek.com/i.php?page=videos/showmecon2018/showmecon-2018-track-2-02-securing-windows-with-group-policy-josh-rickard)
 * [SECURING WINDOWS WITH (SOME) GROUP POLICY – 2018 BSIDESKC](https://bsideskc2018.busyconf.com/activities/5a834efb6d20c70df100006d)
 * MOTIVATIONS & TACTICS OF PHISHING – 2017 MORENET ANNUAL CONFERENCE
