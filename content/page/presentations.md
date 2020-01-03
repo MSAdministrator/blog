@@ -14,6 +14,7 @@ I have included a list below of my previous presentations and any relevant links
 
 ## Presentation Slides
 
+* [py-ews: A cross platform python package to interact with Exchange Web Services](https://github.com/MSAdministrator/py-ews-presentation/blob/master/pyews-presentation.md)
 * [Hunting Phish Kits](http://msadministrator.github.io/presentations/hunting-for-phishkits.html)
 * [PowerShell vs Python: A side-by-side comparison](https://github.com/MSAdministrator/powershell-python-comparison-presentation)
 * [Basics of Incident Handling](http://msadministrator.github.io/presentations/basics-of-incident-handling.html)
@@ -21,6 +22,7 @@ I have included a list below of my previous presentations and any relevant links
 
 ## Past Presentations
 
+* [py-ews: A cross platform python package to interact with Exchange Web Services - 2019 BSidesSTL](http://www.irongeek.com/i.php?page=videos/bsidesstl2019/1-02-pyews-a-cross-platform-python-package-to-interact-with-exchange-web-services-josh-rickard)
 * [Hunting Phish Kits - 2019 DerbyCon](http://www.irongeek.com/i.php?page=videos/derbycon9/stable-23-hunting-phish-kits-josh-rickard)
 * PowerShell vs Python: A side-by-side comparison - 2019 BSides Springfield (Missouri) - No Video
 * [SECURING WINDOWS WITH (SOME) GROUP POLICY – 2018 SHOWMECON](https://www.irongeek.com/i.php?page=videos/showmecon2018/showmecon-2018-track-2-02-securing-windows-with-group-policy-josh-rickard)
@@ -31,4 +33,4 @@ I have included a list below of my previous presentations and any relevant links
 * (2) HALF DAY POWERSHELL TRAINING COURSE FOR 80+ - 2017 MU VET MED
 * [PPRT: POWERSHELL PHISHING RESPONSE TOOLKIT – 2016 SHOWMECON](http://www.irongeek.com/i.php?page=videos/showmecon2016/ir03-powershell-phishing-response-toolkit-josh-rickard)
 * [PPRT: POWERSHELL PHISHING RESPONSE TOOLKIT – 2016 CIRCLE CITY CON](https://circlecitycon2016.sched.com/event/7Mfr/pprt-powershell-phishing-response-toolkit)
-* [SECURING WINDOWS WITH GROUP POLICY](https://www.slideshare.net/JoshRickard/securing-windowswithgrouppolicy) – 2015 MORENET ANNUAL CONFERENCE
+* [SECURING WINDOWS WITH GROUP POLICY – 2015 MORENET ANNUAL CONFERENCE](https://www.slideshare.net/JoshRickard/securing-windowswithgrouppolicy) 

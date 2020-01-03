@@ -1,6 +1,6 @@
 [submodule "public"]
 	path = public
-	url = git@github.com:MSAdministrator/msadministrator.github.io.git
+	url = git@github.com-msadministrator:MSAdministrator/msadministrator.github.io.git
 	branch = master
 
 [submodule "themes/bilberry-hugo-theme"]
