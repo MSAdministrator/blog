@@ -6,7 +6,7 @@ else
   python3 -m pip install -r requirements.txt
 fi
 
-python3 -m algolia.py
+python3 -m ./algolia.py
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
