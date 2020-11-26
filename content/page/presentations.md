@@ -14,6 +14,7 @@ I have included a list below of my previous presentations and any relevant links
 
 ## Presentation Slides
 
+* Making MITRE ATT&CK Actionable [(gif)](https://media.githubusercontent.com/media/MSAdministrator/presentations/gh-pages/making-mitre-attck-actionable/making_mitre_attck_actionable_presentation_hacker_halted_23OCT2020.gif) [(pdf)](https://media.githubusercontent.com/media/MSAdministrator/presentations/gh-pages/making-mitre-attck-actionable/making_mitre_attck_actionable_presentation_hacker_halted_23OCT2020.pdf)
 * [py-ews: A cross platform python package to interact with Exchange Web Services](https://github.com/MSAdministrator/py-ews-presentation/blob/master/pyews-presentation.md)
 * [Hunting Phish Kits](http://msadministrator.github.io/presentations/hunting-for-phishkits.html)
 * [PowerShell vs Python: A side-by-side comparison](https://github.com/MSAdministrator/powershell-python-comparison-presentation)
@@ -22,6 +23,7 @@ I have included a list below of my previous presentations and any relevant links
 
 ## Past Presentations
 
+* Making MITRE ATT&CK Actionable - 2020 Hacker Halted
 * [py-ews: A cross platform python package to interact with Exchange Web Services - 2019 BSidesSTL](http://www.irongeek.com/i.php?page=videos/bsidesstl2019/1-02-pyews-a-cross-platform-python-package-to-interact-with-exchange-web-services-josh-rickard)
 * [Hunting Phish Kits - 2019 DerbyCon](http://www.irongeek.com/i.php?page=videos/derbycon9/stable-23-hunting-phish-kits-josh-rickard)
 * PowerShell vs Python: A side-by-side comparison - 2019 BSides Springfield (Missouri) - No Video

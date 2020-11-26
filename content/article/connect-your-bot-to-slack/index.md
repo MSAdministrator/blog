@@ -32,9 +32,7 @@ Lastly, you will need to subscribe to (at minimum) the following bot events.
 
 Click Save.
 
-<img src="Add a Request URL and subscribe to bot events.png" style="max-width:100%;" alt="Add a Request URL and subscribe to bot events">
-
-<img src="Add a Request URL and subscribe to bot events.png" style="max-width:100%;" alt="Add a Request URL and subscribe to bot event">
+<img src="add_a_request_url_and_subscribe_to_bot_events.png" style="max-width:100%;" alt="Add a Request URL and subscribe to bot events">
 
 Select the Basic Information section scroll down until you see the App Credentials.  You will need to gather the following information to allow your Azure Web App Bot to be integrated into your Slack workspace.
 
@@ -48,7 +46,8 @@ Now that you have this information, head back over to your Azure Portal and your
 
 I want to point out that you can integrate your bot with many other services besides Slack, and there are several built-in options for doing this with many popular services.  This article will only talk about integrating your bot with Slack.
 
-<img src="Select Channels within your Web App Bot resource page and then select Slack to integrate your bot with Slack.png" style="max-width:100%;" alt="Select Channels within your Web App Bot resource page and then select Slack to integrate your bot with Slack">
+
+<img src="select_channels_within_your_web_app_bot_resource_page_and_then_select_slack_to_integrate_your_bot_with_slack.png" style="max-width:100%;" alt="Select Channels within your Web App Bot resource page and then select Slack to integrate your bot with Slack">
 
 
 Enter Application Credentials information from our Slack workspace into the Slack channel integration page on your Web App Bot Resource in the Azure Portal.  You only need to fill out the Client ID, Client Secret, and Verification Token fields.  Click Save.
@@ -59,4 +58,4 @@ NOTE: If you run into an issue, you may need to ensure that you are still author
 
 All you have to do now is login to your Slack workspace and your new bot should be available and ready to answer any and all of your questions! 
 
-<img src="Your very own QnA Bot is now integrated into your Slack workspace.png" style="max-width:100%;" alt="Your very own QnA Bot is now integrated into your Slack workspace">
+<img src="your_very_own_qna_bot_is_now_integrated_into_your_slack_workspace.png" style="max-width:100%;" alt="Your very own QnA Bot is now integrated into your Slack workspace">

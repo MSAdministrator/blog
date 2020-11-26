@@ -31,7 +31,7 @@ The first step is to visit [https://dev.twitter.com/apps/new](https://dev.twitte
 
 Next, you will need to select the "Keys and Tokens" tab and gather all your keys.  *Please keep these secure!*  We will be using them when we get to the AppVeyor section below.
 
-<img src="Generate Twitter API Keys.png" style="max-width:100%;" alt="Generate Twitter API Keys">
+<img src="generate_twitter_api_keys.png" style="max-width:100%;" alt="Generate Twitter API Keys">
 
 ## GitHub 
 
@@ -49,7 +49,7 @@ AppVeyor is a Continuous Integration product that is free for opensource project
 
 We first need to create an AppVeyor account. *You MUST create your AppVeyor account using your GitHUb credentials.  This is mandatory!* You can do this by visiting Appveyor.com and creating your account.
 
-<img src="Create your AppVeyor Account.gif" style="max-width:100%;" alt="Create your AppVeyor Account">
+<img src="create_your_appveyor_account.gif" style="max-width:100%;" alt="Create your AppVeyor Account">
 
 Once you have created your account, then you need to head back to AppVeyor and sign in.  Once signed in, then we need to select the "New Project" button.  If you are signed with your GitHub account then you should see a list of your repositories on the next page.  
 
@@ -61,7 +61,7 @@ Scheduled Builds allows you to schedule when the CI will run.  You can select a 
 
 To set this type of schedule you would add the following to your project settings in AppVeyor (this is for only posting at 7PM CST daily):
 
-<img src="Set AppVeyor Build Schedule once enabled by AppVeyor Support.png" style="max-width:100%;" alt="Set AppVeyor Build Schedule once enabled by AppVeyor Support">
+<img src="set_appveyor_build_schedule_once_enabled_by_appveyor_support.png" style="max-width:100%;" alt="Set AppVeyor Build Schedule once enabled by AppVeyor Support">
 
 If you would like to schedule your build for 7 PM CST then you add `0 0 * * *` into the Build Schedule.  If you would like your schedule to run twice a day; once at 11AM CST and again at 7PM CST then you would add the following to your Build Schedule:
 

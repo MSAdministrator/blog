@@ -38,7 +38,7 @@ The second repository is called (in my case, but it can be whatever you want to 
 
 You should now have two repositories setup similar to how mine look (but with your account name).
 
-<img src="Screenshot of my two GitHub repositories.png" style="max-width:100%;" alt="Screenshot of my two GitHub repositories">
+<img src="screenshot_of_my_two_github_repositories.png" style="max-width:100%;" alt="Screenshot of my two GitHub repositories">
 
 Now that you have your two empty repositories, let's go ahead and use Git (or you can download directly from GitHub) and clone the `blog` repository locally.
 

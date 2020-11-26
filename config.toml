@@ -17,6 +17,11 @@ googleAnalytics = "UA-35980408-2"
 # Enable / Disable comments on the articles via Disqus.
 disqusShortname = ""
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
   # Favicon for the browser's favorites and tabs
   favicon = "" # set a favicon icon
@@ -33,6 +38,7 @@ disqusShortname = ""
   author = "Josh Rickard"
   description = "Lets Automate It"
   keywords = "blog,powershell,security,pwsh,python,active,directory,grouppolicy,windows,microsoft"
+  images = ["/images/default.jpg"]
 
   # How many articles should be displayed at once?
   paginate = 7
@@ -42,9 +48,9 @@ disqusShortname = ""
 
   # Enable / Disable algolia search
   algolia_search    = true
-  algolia_appId     = "NLP9E0F1NO"
-  algolia_apiKey    = "a4ffdf988b82857fa86f4403da30ec7f"
-  algolia_indexName = "prod_msadministrator"
+  algolia_appId     = "9OVGJK665T"
+  algolia_apiKey    = "58aeb104d5835247f4a4a050dd4fe189"
+  algolia_indexName = "Letsautomate.it"
     # Set this option to false if you want to search within all articles in all languages at once
     algolia_currentLanguageOnly = true
 
