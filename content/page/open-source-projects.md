@@ -1,6 +1,6 @@
 ---
 title: "Open Source Projects"
-date: 2020-02-02T08:47:39-04:00
+date: 2021-06-04T08:47:39-04:00
 draft: false
 excludeFromTopNav: false
 
@@ -12,6 +12,32 @@ target: "_blank"
     
 Below is a list of open-source projects I have started or contributed heavily to:
 
+* **[speedtweet](https://github.com/MSAdministrator/speedtweet)**
+    * This docker-compose project will check your internet speed against a specified threshold and if below it will tweet at the provided account about your current internet speeds.
+    * Type: Docker
+* **[slack-url-utils](https://github.com/MSAdministrator/slack-url-utils)**
+    * slack-url-utils is a slash command utility for Slack that obfuscates, deobfuscates, gets DNS information, and submits IOCs to AlienVault for a given URL.
+    * Type: Docker
+* **[rudder](https://github.com/MSAdministrator/rudder)**
+    * A Python package to run commands remotely on Windows, macOS or *nix systems using PowerShell Remoting/WinRM or SSH.
+    * Type: Python
+    * Package Repository: https://pypi.org/project/rudder/
+* **[hopper](https://github.com/MSAdministrator/hopper)**
+    * A Python package to extract and transform received from header hops from email messages.
+    * Type: Python
+    * Package Repository: https://pypi.org/project/hopper/
+* **[msi-utils](https://github.com/MSAdministrator/msi-utils)**
+    * A Python package helps with investigating, analyzing and extracting an MSI (Windows Installer) file.
+    * Type: Python
+    * Package Repository: https://pypi.org/project/msi-utils/
+* **[elastic-agent-setup](https://github.com/MSAdministrator/elastic-agent-setup)**
+    * A python package to install and enroll an Elastic Agent on multiple host operating systems.
+    * Type: Python
+    * Package Repository: https://pypi.org/project/elastic-agent-setup/
+* **[elk-tls-docker](https://github.com/swimlane/elk-tls-docker)**
+    * A docker-compose project which creates a ELK stack using either self-signed or LetsEncrypt certificates.
+    * Type: Docker
+    * Documentation: https://github.com/swimlane/elk-tls-docker/wiki
 * **[soc-faker](https://github.com/swimlane/soc-faker)**
     * A python package for use in generating fake data for SOC and security automation.
     * Type: Python
