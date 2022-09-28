@@ -12,7 +12,7 @@ author: "Josh Rickard"
 
 Whether you are new to Python or not, ensuring you understand the basics will help you along the way to becoming a Python expert.
 
-Please see the first post titled [Python vs Powershell Part 1: Versioning](). This first post was written in 2018 but still applies. The remaining blog posts are a continuation of this series. Lets get started!
+Please see the first post titled [Python vs Powershell Part 1: Versioning](https://letsautomate.it/article/python-vs-powershell-part-1-versioning/). This first post was written in 2018 but still applies. The remaining blog posts are a continuation of this series. Lets get started!
 
 ## Installation
 

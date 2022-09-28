@@ -14,8 +14,8 @@ Whether you are new to Python or not, ensuring you understand the basics will he
 
 Please see the following series of posts:
 
-1. [Python vs Powershell Part 1: Versioning]()
-2. [Understanding Python - Part 2: Running Code]()
+1. [Python vs Powershell Part 1: Versioning](https://letsautomate.it/article/python-vs-powershell-part-1-versioning/)
+2. [Understanding Python - Part 2: Running Code](https://letsautomate.it/article/understanding-python-part-2-running-code/)
 3. [Understanding Python - Part 3: Built-in Primitives]()
 
 ## Built-in Primitives

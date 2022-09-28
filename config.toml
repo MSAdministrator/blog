@@ -110,6 +110,9 @@ disqusShortname = ""
     # show a language chooser in the header
     showHeaderLanguageChooser = false
 
+    # google Analytics 4
+    googleAnalyticsID = "G-2HG9KJX3M8"
+
   # Content configuration
     # Enable an optional pinned page to display at the top of the index
     # pinnedPost = "/article/installing-bilberry-theme/"
