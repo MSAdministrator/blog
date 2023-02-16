@@ -14,7 +14,7 @@ I have included a list below of my previous presentations and any relevant links
 
 ## Presentation Slides
 
-* Making MITRE ATT&CK Actionable [(gif)](https://media.githubusercontent.com/media/MSAdministrator/presentations/gh-pages/making-mitre-attck-actionable/making_mitre_attck_actionable_presentation_hacker_halted_23OCT2020.gif) [(pdf)](https://media.githubusercontent.com/media/MSAdministrator/presentations/gh-pages/making-mitre-attck-actionable/making_mitre_attck_actionable_presentation_hacker_halted_23OCT2020.pdf)
+* Making MITRE ATT&CK Actionable (Behind paywall so unavailable)
 * [py-ews: A cross platform python package to interact with Exchange Web Services](https://github.com/MSAdministrator/py-ews-presentation/blob/master/pyews-presentation.md)
 * [Hunting Phish Kits](http://msadministrator.github.io/presentations/hunting-for-phishkits.html)
 * [PowerShell vs Python: A side-by-side comparison](https://github.com/MSAdministrator/powershell-python-comparison-presentation)
