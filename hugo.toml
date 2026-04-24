@@ -34,6 +34,10 @@ sectionPagesMenu = "archive"
     name = "Presentations"
     pageRef = "/page/presentations"
     weight = 4
+  [[menus.topnav]]
+    name = "Papers"
+    pageRef = "/page/papers"
+    weight = 4
 
 [permalinks]
     posts = ":sections[1:]/:title/"
