@@ -1,0 +1,6 @@
+[submodule "themes/bilberry-hugo-theme"]
+	path = themes/bilberry-hugo-theme
+	url = git@github.com:Lednerb/bilberry-hugo-theme.git
+[submodule "public"]
+	path = public
+	url = git@github.com:MSAdministrator/msadministrator.github.io.git
