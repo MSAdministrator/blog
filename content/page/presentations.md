@@ -13,7 +13,7 @@ I have included a list below of my previous presentations and any relevant links
 
 ## Presentation Slides
 
-* [LLMs: Prompting, Agents, Assitants, Oh My](/static/data/LLMs_prompting_agents_assistants_oh_my_FINAL.pdf)
+* [LLMs: Prompting, Agents, Assitants, Oh My](/data/LLMs_prompting_agents_assistants_oh_my_FINAL.pdf)
 * Making MITRE ATT&CK Actionable (Behind paywall so unavailable)
 * [py-ews: A cross platform python package to interact with Exchange Web Services](https://github.com/MSAdministrator/py-ews-presentation/blob/master/pyews-presentation.md)
 * [Hunting Phish Kits](http://msadministrator.github.io/presentations/hunting-for-phishkits.html)
