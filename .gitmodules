@@ -3,4 +3,4 @@
 	url = git@github.com:Lednerb/bilberry-hugo-theme.git
 [submodule "public"]
 	path = public
-	url = git@github.com:MSAdministrator/msadministrator.github.io.git
+	url = https://github.com/MSAdministrator/msadministrator.github.io.git
