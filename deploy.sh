@@ -27,8 +27,8 @@ if [ $# -eq 1 ]
 fi
 git commit -m "$msg"
 
-# Push source and build repos.
-git push origin master
+# Push source and build repos (force push since this is a generated site).
+git push origin master --force
 
 # Come Back up to the Project Root
 cd ..
