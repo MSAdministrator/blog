@@ -5,7 +5,8 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 # Ensure public submodule is on master branch
 cd public
 git checkout master
-git pull origin master
+git fetch origin
+git reset --hard origin/master
 cd ..
 
 # Build the project (using Hugo modules for v4 theme)
