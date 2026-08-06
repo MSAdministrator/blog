@@ -11,4 +11,4 @@ target: "_blank"
 
 Below is a list of published (or draft) research papers. This will be continually updated moving forward:
 
-* [Beyond the Prompt: The Social Costs of Generative Artificial Intelligence](/data/Beyond%20the%20Prompt-%20The%20Social%20Costs%20of%20Generative%20Artifical%20Intelligence%20-%20First%20Draft.pdf)
+* [Beyond the Prompt: The Social Costs of Generative Artificial Intelligence](/data/Beyond-the-Prompt-Social-Costs-of-Generative-AI.pdf) — *published in the Business, Entrepreneurship & Tax Law Review, Vol. 10, Iss. 1 (2026)*
