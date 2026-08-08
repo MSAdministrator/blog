@@ -15,7 +15,17 @@ target: "_blank"
 <div style="float: left;"><a href="https://letsautomate.it" target="_blank"><img alt="LetsAutomateIt" src="https://img.shields.io/badge/blog-%2312100E.svg?&style=for-the-badge&logo=blog&logoColor=white" /></a></div>
 <br><br>
 
-My name is Josh Rickard and I am a creator and automator of things. I'm an experienced IT & DFIR (Digital Forensics & Incident Response) professional that loves to automate and release open-source tools to help the Information Security community.
+I'm Josh Rickard: a threat research engineer and security practitioner who builds software, systems, and automation that help defenders solve complex problems at scale.
+
+Over a 14+ year career, I've worked across security operations, digital forensics and incident response, detection engineering, security architecture, product leadership, and software engineering. I've built open-source tools, led products used by more than 18 million people, and helped build Go and Python services that process billions of security events each day.
+
+I'm especially interested in the intersection of threat research, behavioral detection, security automation, event-driven systems, and agentic tooling. My bias is toward practical work: reducing operational toil, improving reliability, and keeping human judgment where it matters.
+
+## Now
+
+I work on threat research and detection engineering at Sublime Security, with a focus on improving phishing defense through better behavioral detections, research workflows, and tooling.
+
+This site is where I share what I learn: detection and automation ideas, open-source projects, defensive security research, and occasional thoughts on the social and technical consequences of AI.
 
 <div style="float: left;"><img alt="Linux" src="https://img.shields.io/badge/-Linux-45b8d8?style=flat-square&logo=linux&logoColor=white" /></div>
   
@@ -23,7 +33,11 @@ My name is Josh Rickard and I am a creator and automator of things. I'm an exper
 
 <div style="float: left;"><img alt="Docker" src="https://img.shields.io/badge/-Docker-46a2f1?style=flat-square&logo=docker&logoColor=white" /></div>
 
+<div style="float: left;"><img alt="Kubernetes" src="https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" /></div>
+
 <div style="float: left;"><img alt="Windows" src="https://img.shields.io/badge/-Windows-2088FF?style=flat-square&logo=windows&logoColor=white" /></div>
+
+<div style="float: left;"><img alt="Go" src="https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white" /></div>
 
 <div style="float: left;"><img alt="Python" src="https://img.shields.io/badge/-Python-1a73e8?style=flat-square&logo=python&logoColor=white" /></div>
   
@@ -35,6 +49,10 @@ My name is Josh Rickard and I am a creator and automator of things. I'm an exper
 
 <div style="float: left;"><img alt="git" src="https://img.shields.io/badge/-Git-430098?style=flat-square&logo=git&logoColor=white" /></div>
 
+<div style="float: left;"><img alt="Terraform" src="https://img.shields.io/badge/-Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" /></div>
+
+<div style="float: left;"><img alt="Ansible" src="https://img.shields.io/badge/-Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white" /></div>
+
 <div style="float: left;"><img alt="MongoDB" src="https://img.shields.io/badge/-MongoDB-764ABC?style=flat-square&logo=mongodb&logoColor=white" /></div>
 
 <div style="float: left;"><img alt="Digital Ocean" src="https://img.shields.io/badge/-Digital Ocean-B7178C?style=flat-square&logo=digitalocean&logoColor=white" /></div>
@@ -44,69 +62,107 @@ My name is Josh Rickard and I am a creator and automator of things. I'm an exper
 <div style="float: left;"><img alt="Azure" src="https://img.shields.io/badge/-Azure-CC6699?style=flat-square&logo=azure&logoColor=white" /></div>
 <br><br>
 
+
 ## Experience
 
+### Threat Research Engineer
+
+#### Sublime Security / June 2026 to Present
+
+I research threats and build detections, tooling, and frameworks that help make phishing defense more effective, scalable, and understandable.
+
+### Detection Engineer 2
+
+#### Sublime Security / June 2025 to June 2026
+
+Joined Sublime Security's detection organization to help defend people from phishing at scale.
+
+- Evaluated commercial and open-source threat intelligence against the core technique-based rule corpus, helping validate coverage, reduce spend, and establish a future intelligence roadmap
+- Improved behavioral detections by increasing true positives and reducing false positives across the corpus
+- Researched, authored, and validated new detection rules based on emerging threats and attacker behavior
+
+### Senior Software Engineer - Threat Detection
+
+#### AppOmni / March 2023 to March 2025
+
+Architected and developed distributed Golang microservices powering an event-driven ETL platform that processed billions of audit-log events daily.
+
+- Designed and managed event enrichment services that scaled to more than 90,000 queries per second
+- Built libraries and standards for unary and streaming gRPC/Protobuf services
+- Worked on ETL, normalization, caching, logging, and observability in an event-driven architecture
+- Helped automate deployments across multi-tenant Kubernetes environments
+- Standardized service documentation and operational practices to support SRE and on-call teams
+
 ### Senior Detection Validation Engineer
+
 #### Red Canary / Colorado / October 2022 to January 2023
 
-Due to a reduction in force my position was let go. I was part of Red Canary’s Detection Enablement division focusing on proving detection capabilities at scale.
+Worked within the Detection Enablement organization to build platforms and infrastructure that validated detection capabilities at scale across modern attacker techniques.
 
-* Assisted with development of a rails web application to streamline testing of attacker techniques and tools.
-* Assisted with development of infrastructure using terraform and ansible to build, deploy and execute several attack testing frameworks across multiple operating systems, EDR products and more
+- Developed a Ruby on Rails application to streamline testing of attacker techniques, tooling, and detection logic
+- Built automation with Terraform and Ansible to deploy and execute attack-testing frameworks across operating systems and EDR products
+- Improved the repeatability and scalability of detection validation through standardized workflows
 
 ### Senior Security Solutions Architect
-#### Swimlane / Colorado / Dec 2018 to October 2022
 
-I am part of the Swimlane research team which focuses on innovative security automation, building content and giving back to the security community.
+#### Swimlane / Colorado / December 2018 to October 2022
 
-* Automated complex and unique processes used by some of the largest private, public and governmental organizations in the world
-* Implemented integrations with many critical security operations products
-* Released many open-source tools like pyattck, atomic-operator, soc-faker and more
-* Contributed by writing several blogs, presenting on webinars and at conferences
-* Ideation to implementation for several internal tools and frameworks, including content migration and generation
+Designed security automation solutions, integrations, and open-source tooling that enabled enterprise security teams to automate complex workflows and improve operational efficiency.
+
+- Built security automation workflows used by large private-sector, public-sector, and government organizations
+- Implemented integrations across numerous security operations platforms
+- Released open-source tools including pyattck, atomic-operator, and soc-faker
+- Authored technical content and presented on security automation, threat research, and defensive security
+- Took internal tools and frameworks from early ideas through implementation and adoption
 
 ### Manager, Reporter Solutions Engineering
-#### Cofense / Virginia / Dec 2015 to Nov 2018
 
-Managed, designed and implemented features for all Cofense Reporter products which grew the product from 2 million to 15 million installs globally.
+#### Cofense / Virginia / December 2015 to November 2018
 
-* Designed and managed day-to-day operations of new innovative products utilizing internal and external developers, from conception to market release
-* Introduced automation tools for generation, verification and support of Cofense Reporter products, reducing support costs and reducing development time by 300%
-* Technical Product Owner for 3 scrum teams (9 engineers & 6 quality assurance engineers)
+Led product, support, and engineering efforts for the Cofense Reporter product line as it scaled from roughly one million to more than 18 million global installations.
+
+- Managed product development from concept through release while coordinating internal and external engineering teams
+- Designed automation systems for product generation, validation, and support, reducing engineering effort and operational support costs
+- Served as Technical Product Owner for three Scrum teams consisting of nine software engineers and six QA engineers
+- Helped scale one of the industry's most widely deployed phishing-reporting platforms through engineering leadership and product innovation
 
 ### Security Analyst - Specialist
-#### University of Missouri / May 2012 to Dec 2015
 
-I held several roles but I was a security analyst part of the university's digital forensics & incident response team. I was also an IT systems analysts and a system administrator during my time at the University.
-Some focus areas in which I was worked on during my time are:
+#### University of Missouri / May 2012 to December 2015
 
-- Managed Vulnerability Management enterprise wide
-- Managed A/V for thousands of endpoints
-- Secure Group Policy creation and application across the enterprise
-- Operating system deployment automation services
-- Tool developer, including some open-source software
-- Managed servers across multiple departments
-- And more!
+Worked across digital forensics and incident response, enterprise security operations, systems administration, and tool development.
+
+- Managed enterprise vulnerability-management and endpoint-protection programs
+- Created and maintained secure Group Policy configurations across the organization
+- Automated operating-system deployment and endpoint-management services
+- Managed servers and systems across multiple departments
+- Built internal and open-source tools to support security operations
 
 ## Open-Source Projects
 
-You can see a full list of all my open-source projects on my [GitHub](https://github.com/msadministrator). Here are a few highlights.
+You can see a full list of my open-source projects on [GitHub](https://github.com/MSAdministrator). Here are a few highlights.
 
-* [pyattck](https://github.com/swimlane/pyattck) - A Python Package to interact with the Mitre ATT&CK Framework
-* [atomic-operator](https://github.com/swimlane/atomic-operator) - A Python package is used to execute Atomic Red Team tests (Atomics) across multiple operating system environments
-* [soc-faker](https://github.com/swimlane/soc-faker) - A python package for use in generating fake data for SOC and security automation
+- [pyattck](https://github.com/swimlane/pyattck) - A Python package for interacting with the MITRE ATT&CK Framework
+- [atomic-operator](https://github.com/swimlane/atomic-operator) - A Python package for executing Atomic Red Team tests across multiple operating-system environments
+- [soc-faker](https://github.com/swimlane/soc-faker) - A Python package for generating fake data for security operations and automation
+- [opencti-enrichment](https://github.com/MSAdministrator/opencti-enrichment) - A Golang service that enriches OpenCTI observables and identifies indicators of compromise
+- [ai-router](https://github.com/MSAdministrator/ai-router) - A Python CLI tool that routes local Ollama models based on available system resources
 
+### ✍ Blog & Writing
 
-### &#x270d; Blog & Writing
+I write here on [Lets Automate It](https://letsautomate.it) about threat detection, automation, software, security research, and the changing relationship between people and AI. You can find additional writing, interviews, and mentions on the [Press page](https://letsautomate.it/page/press/).
 
-I have written for many websites, but you can find most of my writing on my blog at [letsautomate.it](https://letsautomate.it). You can find additional links to blogs, articles and more in which I was interviewed for, wrote myself, or was mentioned in [here](https://letsautomate.it/page/press/)
+### ✍ Publications
+
+- [Beyond the Prompt: The Social Costs of Generative Artificial Intelligence](https://scholarship.law.missouri.edu) (with J. Scott Christianson) - Examines the environmental, societal, and infrastructure costs of the generative-AI boom
 
 ## Recognitions
 
-* Past President & Board Member of the Central Missouri InfraGard chapter (January 2015 - December 2018)
-* SC Media (SC Magazine) Reboot Leadership Awards awarded me in the [Influencers](https://www.scmagazine.com/home/events/reboot-leadership-awards-2019/josh-rickard-swimlane/) category in 2019.
-* An official maintainer of the [Atomic Red Team](https://atomicredteam.io/maintainers/) project (January 2023)
+- Official maintainer of the [Atomic Red Team](https://atomicredteam.io/maintainers/) project
+- Past President and Board Member of the Central Missouri InfraGard chapter
+- 2019 SC Media Reboot Leadership Awards [Influencer](https://www.scmagazine.com/home/events/reboot-leadership-awards-2019/josh-rickard-swimlane/)
+- Contributing author to *Tribe of Hackers: Blue Team*
 
 ## Past Presentations
 
-You can view my past presentations and some recordings [here](https://letsautomate.it/page/presentations/).
+I've presented on detection, automation, phishing, incident response, Windows security, and AI at conferences, universities, and webinars. You can view past presentations and recordings [here](https://letsautomate.it/page/presentations/).
