@@ -12,6 +12,9 @@ What up nerds? I was reading this awesome post from LP titled [Open Season: Ce
 
 Before I get into [CZDS](https://czds.icann.org/home), first I want to set the stage of how we can view this data along with the other sources (mentioned in LPs blog and many others).
 
+
+<img src="open-season-phishing-attack-lifecycle.PNG" style="max-width:100%;" alt="Open Season: Phishing Attack Lifecycle — a proactive framework for mapping, detecting, and disrupting phishing operations before they reach victims.">
+
 When a threat actor, let’s call them BOB, is going to setup a phishing campaign they will typically: 
 
 * Register a domain (or compromise one)

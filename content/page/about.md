@@ -27,41 +27,6 @@ I work on threat research and detection engineering at Sublime Security, with a 
 
 This site is where I share what I learn: detection and automation ideas, open-source projects, defensive security research, and occasional thoughts on the social and technical consequences of AI.
 
-<div style="float: left;"><img alt="Linux" src="https://img.shields.io/badge/-Linux-45b8d8?style=flat-square&logo=linux&logoColor=white" /></div>
-  
-<div style="float: left;"><img alt="macOS" src="https://img.shields.io/badge/-macOS-8DD6F9?style=flat-square&logo=macOS&logoColor=white" /></div>
-
-<div style="float: left;"><img alt="Docker" src="https://img.shields.io/badge/-Docker-46a2f1?style=flat-square&logo=docker&logoColor=white" /></div>
-
-<div style="float: left;"><img alt="Kubernetes" src="https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" /></div>
-
-<div style="float: left;"><img alt="Windows" src="https://img.shields.io/badge/-Windows-2088FF?style=flat-square&logo=windows&logoColor=white" /></div>
-
-<div style="float: left;"><img alt="Go" src="https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white" /></div>
-
-<div style="float: left;"><img alt="Python" src="https://img.shields.io/badge/-Python-1a73e8?style=flat-square&logo=python&logoColor=white" /></div>
-  
-<div style="float: left;"><img alt="PowerShell" src="https://img.shields.io/badge/-PowerShell-007ACC?style=flat-square&logo=powershell&logoColor=white" /></div>
-
-<div style="float: left;"><img alt="Bash" src="https://img.shields.io/badge/-Bash-5849BE?style=flat-square&logo=shell&logoColor=white" /></div>
-  
-<div style="float: left;"><img alt="github actions" src="https://img.shields.io/badge/-Github_Actions-311C87?style=flat-square&logo=github-actions&logoColor=white" /></div>
-
-<div style="float: left;"><img alt="git" src="https://img.shields.io/badge/-Git-430098?style=flat-square&logo=git&logoColor=white" /></div>
-
-<div style="float: left;"><img alt="Terraform" src="https://img.shields.io/badge/-Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" /></div>
-
-<div style="float: left;"><img alt="Ansible" src="https://img.shields.io/badge/-Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white" /></div>
-
-<div style="float: left;"><img alt="MongoDB" src="https://img.shields.io/badge/-MongoDB-764ABC?style=flat-square&logo=mongodb&logoColor=white" /></div>
-
-<div style="float: left;"><img alt="Digital Ocean" src="https://img.shields.io/badge/-Digital Ocean-B7178C?style=flat-square&logo=digitalocean&logoColor=white" /></div>
-
-<div style="float: left;"><img alt="AWS" src="https://img.shields.io/badge/-AWS-E10098?style=flat-square&logo=aws&logoColor=white" /></div>
-
-<div style="float: left;"><img alt="Azure" src="https://img.shields.io/badge/-Azure-CC6699?style=flat-square&logo=azure&logoColor=white" /></div>
-<br><br>
-
 
 ## Experience
 
