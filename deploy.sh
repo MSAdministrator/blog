@@ -12,6 +12,13 @@ cd ..
 # Build the project (using Hugo modules for v4 theme)
 hugo
 
+# Verify RSS feed was generated
+if [ ! -f "public/index.xml" ]; then
+  echo -e "\033[0;31mERROR: RSS feed (public/index.xml) was not generated. Aborting deploy.\033[0m"
+  exit 1
+fi
+echo -e "\033[0;32mRSS feed updated successfully.\033[0m"
+
 # Run Pagefind to index the site for search
 echo -e "\033[0;32mIndexing site with Pagefind...\033[0m"
 npx -y pagefind --site public
