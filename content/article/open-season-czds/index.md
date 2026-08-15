@@ -1,12 +1,14 @@
 ---
 title: "Open Season: CZDS"
-date: 2026-08-03T16:43:39-04:00
-draft: true
+date: 2026-08-14T00:00:00-04:00
+draft: false
 
 categories: [security]
 tags: [enrichment,python,golang]
 author: "Josh Rickard"
 ---
+
+> This post was also published in [The Thor Collective's Dispatch](https://dispatch.thorcollective.com/p/open-season-czds).
 
 What up nerds? I was reading this awesome post from LP titled [Open Season: Certificate Transparency](https://dispatch.thorcollective.com/p/open-season-certificate-transparency) (I highly recommend you read this too) and it forced me to write this blog about a free and open (mostly) service which can add another layer of context / enrichment to your threat intelligence toolbelt.
 
@@ -267,7 +269,7 @@ This allows you to:
 
 ## Implementation Examples
 
-I have had a few implementations of using CZDS over the years. The most recent is embedded as a source within a project called go-member-extender. This takes a MMDB database (binary search tree over IP addresses; fast lookups possible) and can extend or upsert it with data from different sources.
+I have had a few implementations of using CZDS over the years. The most recent is embedded as a source within a project called go-mmdb-extender. This takes a MMDB database (binary search tree over IP addresses; fast lookups possible) and can extend or upsert it with data from different sources.
 
 This one happens to be CZDS and written in Golang: 
 
