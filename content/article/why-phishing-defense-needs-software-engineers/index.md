@@ -1,7 +1,7 @@
 ---
 title: "Why Phishing Defense Needs Software Engineers"
-date: 2026-01-18T12:00:00-06:00
-draft: true
+date: 2026-10-29T12:00:00-05:00
+draft: false
 
 categories: [security,phishing]
 tags: [phishing,threat-intelligence,automation,software-engineering,CTI]
@@ -10,7 +10,7 @@ author: "Josh Rickard"
 
 If you've worked in security for any amount of time, you know that phishing is the attack vector that just won't quit. It's evolved from Nigerian prince emails to sophisticated credential harvesting operations powered by Phishing-as-a-Service (PhaaS) platforms like Tycoon 2FA. The attackers have leveled up—and honestly, most defenders are still playing catch-up.
 
-Here's the thing: traditional security approaches to phishing defense aren't cutting it anymore. We need to think differently. We need to think like software engineers.
+Traditional approaches to phishing defense aren't cutting it anymore. We need to think like software engineers.
 
 ## The Problem with Traditional Phishing Defense
 
@@ -18,7 +18,7 @@ Most organizations approach phishing defense reactively. An email comes in, gets
 
 The problem? Modern phishing campaigns don't work that way. Attackers spin up infrastructure in minutes, rotate domains hourly, and use anti-bot detection to serve benign content to security scanners while showing the phishing page to real victims. By the time you've blocked that domain, they've already moved on.
 
-Let's be honest—we're not going to out-click the attackers. We need systems that can collect, correlate, and attribute at scale.
+We're not going to out-click the attackers. We need systems that can collect, correlate, and attribute at scale.
 
 ## Thinking Like a Software Engineer
 
@@ -57,6 +57,8 @@ To collect intelligence on these kits, you need to think like the attackers. Too
 
 This isn't about being sneaky—it's about ensuring your analysis tools see what a real victim would see.
 
+A caveat: evasive collection has legal and ethical limits. Only analyze infrastructure you're authorized to interact with, check the terms of any services involved, and involve legal before doing this at scale.
+
 ### Attribution Engine
 
 Collection without attribution is just noise. The real value comes from answering questions like:
@@ -67,11 +69,18 @@ Collection without attribution is just noise. The real value comes from answerin
 
 This requires thinking about your data model carefully. A detection rule isn't just a pattern—it's an entity with relationships to campaigns, actors, techniques, and historical observations. Build those relationships into your schema from day one.
 
-### The Human Element
+A minimal model might look like this:
 
-With all this talk about automation and systems, it's easy to forget that people are the point of all this. Every phishing email that gets blocked is an employee who didn't have their credentials stolen. Every campaign we attribute is intelligence we can share to protect others.
+```text
+Observable (URL, domain, IP, file hash)
+  observed_in  -> Campaign
+  served_by    -> Kit (page structure, JS, exfil endpoint)
+  hosted_on    -> Infrastructure (ASN, registrar, TLS cert)
+Campaign
+  attributed_to -> Actor
+```
 
-As InfoSec professionals, it's our responsibility to build systems that make our analysts more effective—not replace them. The goal is to handle the volume and repetition so humans can focus on the novel and complex cases that actually require judgment.
+With that in place, attribution becomes a graph query: observables that share an exfil endpoint, certificate, or kit fingerprint cluster into the same campaign, and a new URL can be tied to a known kit on first sight.
 
 ## Where to Start
 
@@ -87,10 +96,10 @@ If you're looking to level up your phishing defense capabilities, here are some 
 
 ## The Path Forward
 
-Phishing defense has become a software engineering problem. The organizations that recognize this—and invest in the engineering capabilities to address it—will be the ones that get ahead of the threat.
+Much of phishing defense has become a software engineering problem. The organizations that recognize this—and invest in the engineering capabilities to address it—will be the ones that get ahead of the threat.
 
 I'm not saying every security team needs to become a software shop. But we need to think about our tools and processes with the same rigor that software engineers apply to their systems. Data models matter. Integration patterns matter. Scalability matters.
 
 The attackers are running automated, scalable operations. If we're going to defend against them, we need to do the same.
 
-Just remember—at the end of the day, it's not about the technology. It's about the people we're protecting. Build your systems with that in mind, and you'll be pointed in the right direction.
+Just remember—it's not about the technology. Every blocked phishing email is an employee who kept their credentials, and every attributed campaign is intelligence we can share. Build systems that handle the volume and repetition so analysts can focus on the novel cases that require judgment.

@@ -1,7 +1,6 @@
 ---
 title: "Opt Out From Osinit Websites"
 date: 2018-08-24T16:43:39-04:00
-draft: true
 
 categories: []
 tags: []
