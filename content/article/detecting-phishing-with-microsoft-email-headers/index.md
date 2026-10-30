@@ -1,7 +1,7 @@
 ---
 title: "Detecting Phishing with Microsoft Email Headers"
-date: 2026-01-19T10:00:00-06:00
-draft: true
+date: 2026-08-27T10:00:00-05:00
+draft: false
 
 categories: [security,phishing,detection]
 tags: [email-security,microsoft-365,office-365,spf,dkim,dmarc,headers,threat-detection,MQL,sublime-security]
