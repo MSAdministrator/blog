@@ -52,8 +52,6 @@ flowchart TB
 
 *Figure 1: Publicly accessible data services support a variety of consumers. Although their purposes differ, each consumer generates demand on the infrastructure responsible for serving that data.*
 
-![Uploaded image 2](https://github.com/user-attachments/assets/eff7a544-a689-4edc-97b5-f7f74281ba51)
-
 ## LLM Costs
 
 > I also want to stress that the cost of serving a request is not necessarily the same as the cost of serving an additional request.
@@ -98,6 +96,8 @@ Of course, this doesn’t mean the organization is paying for every byte transfe
 
 Now let’s introduce caching.
 
+![Uploaded image 2](https://github.com/user-attachments/assets/eff7a544-a689-4edc-97b5-f7f74281ba51)
+
 ```mermaid
 flowchart TB
     CLIENT["Clients<br/>Humans and Automated Collectors"]
@@ -138,8 +138,6 @@ flowchart TB
 
 *Figure 2: A representative web architecture showing how requests move through edge caching, application services, Redis, and PostgreSQL. Cache placement determines which components process each request and where additional workload accumulates.*
 
-![Uploaded image 3](https://github.com/user-attachments/assets/3eae7246-681f-42ae-b4a6-23d4686c5ae2)
-
 If 90% of those requests are served from a cache, only 5 million requests per day reach the origin infrastructure. That’s a significant reduction in application and database workload.
 
 However, those 50 million requests still need to be served. The cache itself consumes resources, and network transfer may still incur costs depending on where the content is served. Additionally, the traditional configuration for the cache TTL would change to handle both “normal” and increased traffic demand.
@@ -147,6 +145,8 @@ However, those 50 million requests still need to be served. The cache itself con
 Caching reduces the work performed by certain components, but it doesn’t make the underlying demand disappear.
 
 ## What Happens When We Miss the Cache?
+
+![Uploaded image 3](https://github.com/user-attachments/assets/3eae7246-681f-42ae-b4a6-23d4686c5ae2)
 
 ```mermaid
 flowchart TB
@@ -185,8 +185,6 @@ flowchart TB
 
 *Figure 3: An application-level cache miss can trigger additional database work. Connection pooling helps manage database connections, but the resulting query workload still consumes database resources.*
 
-![Uploaded image 4](https://github.com/user-attachments/assets/d1d6d16f-668e-47bc-a306-620147b95a6c)
-
 Let’s assume each of our 5 million daily origin requests generates two database queries.
 
 That’s an additional 10 million queries per day, or 300 million over 30 days.
@@ -216,6 +214,10 @@ An increase in CPU utilization doesn’t automatically mean a higher bill. Likew
 If existing infrastructure can absorb the workload, the immediate financial impact might be minimal. If the workload pushes the system beyond its capacity, the organization may need to provision additional resources.
 
 The costs can also be nonlinear. A relatively small increase in traffic might require no changes at all, while crossing a capacity threshold could require another application instance (think scaled pods) or a database upgrade.
+
+![Uploaded image 4](https://github.com/user-attachments/assets/d1d6d16f-668e-47bc-a306-620147b95a6c)
+
+![Uploaded image 5](https://github.com/user-attachments/assets/8dc72756-dd52-44e6-93c7-1a3b21172207)
 
 ```mermaid
 flowchart TB
@@ -264,8 +266,6 @@ flowchart TB
 ```
 
 *Figure 4: Automated traffic can increase network, compute, database, and operational demand. The resulting financial impact depends on existing capacity, resource utilization, infrastructure pricing, and the engineering work required to maintain service quality.*
-
-![Uploaded image 5](https://github.com/user-attachments/assets/8dc72756-dd52-44e6-93c7-1a3b21172207)
 
 To estimate the impact, I’d start with a few measurements:
 
