@@ -26,6 +26,8 @@ I’m also simplifying some of the engineering involved. Anyone who has operated
 
 With that out of the way, let’s get into it.
 
+![Uploaded image 1](https://github.com/user-attachments/assets/c855135e-3827-4d5a-a924-2872eb2072e8)
+
 ```mermaid
 flowchart TB
     HUMAN["Human Users"]
@@ -49,6 +51,8 @@ flowchart TB
 ```
 
 *Figure 1: Publicly accessible data services support a variety of consumers. Although their purposes differ, each consumer generates demand on the infrastructure responsible for serving that data.*
+
+![Uploaded image 2](https://github.com/user-attachments/assets/eff7a544-a689-4edc-97b5-f7f74281ba51)
 
 ## LLM Costs
 
@@ -134,6 +138,8 @@ flowchart TB
 
 *Figure 2: A representative web architecture showing how requests move through edge caching, application services, Redis, and PostgreSQL. Cache placement determines which components process each request and where additional workload accumulates.*
 
+![Uploaded image 3](https://github.com/user-attachments/assets/3eae7246-681f-42ae-b4a6-23d4686c5ae2)
+
 If 90% of those requests are served from a cache, only 5 million requests per day reach the origin infrastructure. That’s a significant reduction in application and database workload.
 
 However, those 50 million requests still need to be served. The cache itself consumes resources, and network transfer may still incur costs depending on where the content is served. Additionally, the traditional configuration for the cache TTL would change to handle both “normal” and increased traffic demand.
@@ -178,6 +184,8 @@ flowchart TB
 ```
 
 *Figure 3: An application-level cache miss can trigger additional database work. Connection pooling helps manage database connections, but the resulting query workload still consumes database resources.*
+
+![Uploaded image 4](https://github.com/user-attachments/assets/d1d6d16f-668e-47bc-a306-620147b95a6c)
 
 Let’s assume each of our 5 million daily origin requests generates two database queries.
 
@@ -256,6 +264,8 @@ flowchart TB
 ```
 
 *Figure 4: Automated traffic can increase network, compute, database, and operational demand. The resulting financial impact depends on existing capacity, resource utilization, infrastructure pricing, and the engineering work required to maintain service quality.*
+
+![Uploaded image 5](https://github.com/user-attachments/assets/8dc72756-dd52-44e6-93c7-1a3b21172207)
 
 To estimate the impact, I’d start with a few measurements:
 
