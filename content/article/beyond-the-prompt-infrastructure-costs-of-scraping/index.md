@@ -217,8 +217,6 @@ The costs can also be nonlinear. A relatively small increase in traffic might re
 
 ![Uploaded image 4](https://github.com/user-attachments/assets/d1d6d16f-668e-47bc-a306-620147b95a6c)
 
-![Uploaded image 5](https://github.com/user-attachments/assets/8dc72756-dd52-44e6-93c7-1a3b21172207)
-
 ```mermaid
 flowchart TB
     TRAFFIC["Additional Automated Traffic"]
@@ -350,6 +348,8 @@ This is why I think it’s important to distinguish between resource consumption
 We can measure the resources consumed by scraping. We can estimate the additional infrastructure required to support that workload. But calculating the actual financial impact requires understanding the system’s existing capacity, architecture, and billing model.
 
 And for organizations operating public resources with limited funding, even a relatively modest increase in recurring infrastructure costs can matter.
+
+![The Cost in Practice](https://github.com/user-attachments/assets/8dc72756-dd52-44e6-93c7-1a3b21172207)
 
 ## The Costs We Don’t Always See
 
