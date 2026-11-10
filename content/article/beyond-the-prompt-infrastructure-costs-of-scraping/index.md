@@ -1,6 +1,6 @@
 ---
 title: "Beyond the Prompt: Infrastructure Costs of Scraping"
-date: 2026-11-09T12:00:00-06:00
+date: 2026-11-10T11:00:00-06:00
 draft: false
 
 categories: [technology, infrastructure]
