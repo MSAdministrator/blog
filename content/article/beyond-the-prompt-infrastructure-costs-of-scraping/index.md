@@ -74,7 +74,7 @@ Imagine you are Wikipedia and you have an enormous corpus of data that is free a
 
 When you are an organization that keeps data forever (or even for years), you usually have different tiers of data storage: hot (cache or indexed queries), medium (backup tables), and cold (buckets, disk/tape storage, etc.). You do this because hot storage is lightning fast but comes with an increase in costs. Caching also helps here by storing trending, newsworthy, or new content so it’s lightning fast to load when a topic is requested. Caching allows that data to be served immediately without having to query the data source or database.
 
-> When I talk about caching here, I’m not talking about in-memory caching. I’m talking about Redis and other in-memory data stores.
+> Here, I’m focusing on application caches backed by Redis and similar in-memory data stores.
 
 Caching is not cheap, and you can’t keep everything in cache all the time (you would be storing and holding in memory the same dataset as in your database/on-disk, and it would be really expensive). Typically, you would put items that will be retrieved the most for a set period of time. If there was a newsworthy event, a company would hold that data in cache for 24 hours or until the number of requests becomes insignificant. After that 24 hours, it would slowly expire on its own as it’s not being requested anymore. This truly helps cut costs by reducing SQL/database queries (which cost network latency and CPU cycles).
 
