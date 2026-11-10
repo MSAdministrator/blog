@@ -8,7 +8,7 @@ tags: [scraping, artificial-intelligence, infrastructure, digital-commons]
 author: "Josh Rickard"
 ---
 
-Earlier this year, I co-wrote a paper titled [“Beyond the Prompt: The Social Costs of Generative Artificial Intelligence”](https://letsautomate.it/article/beyond-the-prompt-social-costs-of-generative-ai/). In this paper, we explored how generative artificial intelligence affects the digital commons (e.g., the internet), particularly the organizations and communities responsible for making information publicly available.
+Earlier this year, I co-wrote (with [J. Scott Christianson](https://www.christiansonjs.com/)) a paper titled [“Beyond the Prompt: The Social Costs of Generative Artificial Intelligence”](https://letsautomate.it/article/beyond-the-prompt-social-costs-of-generative-ai/). In this paper, we explored how generative artificial intelligence affects the digital commons (e.g., the internet), particularly the organizations and communities responsible for making information publicly available.
 
 One of the topics we discussed was scraping and the costs imposed on organizations around the world.
 
